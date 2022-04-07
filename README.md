@@ -13,19 +13,15 @@ iv) Rotate and display the video
 Anaconda - Python 3.7
 ## Algorithm
 ### Step 1:
-<br>
 Import cv2 and capture the video using cv2.VideoCapture(0)
 ### Step 2:
-<br>
 Write the captured image using cv2.imwrite("JayashreeRao.jpg",frame)
 ### Step 3:
-<br>
 Resize the image using cv2.resize(frame, (0,0), fx = 0.5, fy=0.5)
 ### Step 4:
-<br>
 display the image until the loop gets over
 ### Step 5:
-<br>
+
 Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 ## Program:
 ``` Python
