@@ -29,14 +29,14 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 ### Register No:212220230041
 
 ## i) Write the frame as JPG file
-
+```
 import cv2
 
 videoCaptureObject = cv2.VideoCapture(0)
 ret,frame = videoCaptureObject.read()
 cv2.imwrite("JayashreeRao.jpg",frame)
 
-
+```
 ## ii) Display the video
 
 import cv2
