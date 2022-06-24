@@ -1,4 +1,7 @@
-# Image-Acquisition-from-Web-Camera
+### EX NO: 02
+### DATE:
+# <p align="center">IMAGE ACQUISITION FROM WEB CAMERA</p>
+
 ## Aim
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
