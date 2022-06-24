@@ -25,11 +25,11 @@ display the image until the loop gets over
 
 Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 ## Program:
-
+```
 ### Developed By:N Sandhya Charu
 ### Register No:212220230041
-
-## i) Write the frame as JPG file
+```
+### i) Write the frame as JPG file
 ```python3
 import cv2
 
@@ -38,7 +38,7 @@ ret,frame = videoCaptureObject.read()
 cv2.imwrite("image.jpg",frame)
 
 ```
-## ii) Display the video
+### ii) Display the video
 ```python3
 import cv2
 import numpy as np
@@ -55,7 +55,7 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 
-## iii) Display the video by resizing the window
+### iii) Display the video by resizing the window
 ```python3
 import cv2
 import numpy as np
@@ -82,7 +82,7 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 
-## iv) Rotate and display the video
+### iv) Rotate and display the video
 ```python3
 import cv2
 import numpy as np
